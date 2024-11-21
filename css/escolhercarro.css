@@ -1,0 +1,90 @@
+
+/* Estilos gerais do corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+
+/* Estilo do cabeçalho */
+header {
+  background-color: crimson;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-align: center;
+}
+header li a{
+  position: absolute;
+  top: 16px;
+  left: 10px;
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Estilos para o filtro de categorias */
+.filter-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.filter-container button {
+  background-color: #6e6e6e77;
+  color: crimson;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.filter-container button:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+/* Estilos para os cards dos carros */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.card {
+  background-color: white;
+  width: 250px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+.card h3 {
+  margin: 15px 0;
+  color: crimson;
+}
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+.card button {
+  background-color: crimson;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.card button:hover {
+  background-color: #000000;
+  color: #fff;
+}

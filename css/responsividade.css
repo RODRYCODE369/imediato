@@ -1,0 +1,187 @@
+
+@media  screen and (max-width: 900px){
+  header .left-menu-desktop, header .right-menu-desktop{
+    display: none;
+  }
+
+  header .btn-menu-mobile{
+    display: block;
+  }
+  
+}
+
+@media  screen and (max-width: 878px){
+  /*Responsividade do texto principal*/
+  .first-block .text-prin h1{
+    font-size: 3.0em;
+    line-height: 45px;
+    padding: 0 3%;
+  }
+  
+  .first-block .text-prin p{
+    font-size: 20px;
+    padding: 0 3%;
+    color: rgb(255, 255, 255);
+  }
+
+  .first-block button{
+    font-size: 18px;
+    padding: 0 2%;
+  }
+
+  section.vantagens{
+    padding: 80px 0;
+  }
+  
+  /*Vantagens*/
+
+  .vantagens .itens-conteiner{
+    flex-direction: column;
+  }
+  
+  .vantagens .itens-conteiner .img-itens img{
+    width: 100%;
+  }
+
+  .vantagens .itens-conteiner .text-itens h3{
+    font-size: 40px;
+  }
+
+  .vantagens .itens-conteiner .text-itens p{
+    margin-bottom:20px;
+  }
+
+  .vantagens .itens-conteiner .item-1{
+    order: 1;
+  }
+  
+  .vantagens .itens-conteiner .item-2{
+    order: 0;
+  }
+
+  /*Estilo dos botões de contato*/
+
+  .txt-contato, .icon-contato{
+    display: block;
+    width: 100%;
+  }
+  
+  .contato .txt-contato h3{
+    padding: 0 15px;
+    font-size: 2em;
+    line-height: 40px;
+  }
+  .contato .txt-contato p{
+    margin-bottom: 20px;
+  }
+  .contato .icon-contato button{
+    width: 100%;
+  }
+  
+  
+/*Estilo da sessão comprar ou alugar?*/
+
+.calcule h3{
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.calcule h3 span{
+  display: block;
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+}
+
+.calcule p{
+  margin: 15px 0;
+  font-size: 15px;
+  color: white;
+}
+
+/*Estilo da sessão como funciona*/
+
+.txt-funciona, .instrucoes{
+  display: block;
+  width: 100%;
+}
+
+.como-funciona .txt-funciona{
+  position: static;
+}
+
+.como-funciona .txt-funciona h3{
+  padding: 0 20px;
+  font-size: 4em;
+  line-height: 50px;
+}
+
+
+footer .line-footer1{
+  text-align: center;
+  border-bottom: 2px solid #000;
+  padding-bottom: 40px;
+}
+
+.line-footer1 h2{
+  font-size: 2.5em;
+}
+
+.line-footer1 p{
+  font-size: 1.2em;
+  margin: 10px 0 20px 0;
+}
+
+.line-footer1 form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line-footer1 form input[type=email]{
+  width: 300px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #000000;
+  color: #c5c5c5;
+  padding: 10px;
+  outline: 0;
+}
+
+.line-footer1 form input[type=submit]{
+  width: 80px;
+  height: 40px;
+  background-color: crimson;
+  border: 0;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  transition: .2s;
+}
+
+.line-footer1 form input[type=submit]:hover{
+  background-color: #000;
+  color: crimson;
+}
+
+footer .line-footer2{
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+}
+
+footer .line-footer2 .box-line-footer{
+  max-width: calc(100% / 5);
+}
+
+footer .box-line-footer img{
+  max-width: 110px;
+}
+
+.line-footer2 .box-line-footer p{
+  padding: 10px;
+  
+}
+
+}
